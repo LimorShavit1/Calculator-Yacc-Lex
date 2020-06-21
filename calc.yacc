@@ -77,7 +77,6 @@ expression: expression '+' expression {$$ = $1 + $3; }
 
 %%
 int main() {
-                printf("w4.yacc\n");
 	return yyparse();
 }
 
